@@ -1,6 +1,6 @@
 {
   "name": "yg-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "nodejs build static server",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.0.12",
+    "mime": "^2.4.0",
     "open": "0.0.5",
     "yargs": "^12.0.5"
   }
