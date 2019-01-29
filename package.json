@@ -1,0 +1,22 @@
+{
+  "name": "yg-server",
+  "version": "1.0.0",
+  "description": "nodejs build static server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "yg-server": "bin/static-server.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "taoyage",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.12",
+    "open": "0.0.5",
+    "yargs": "^12.0.5"
+  }
+}
