@@ -1,6 +1,6 @@
 {
   "name": "yg-server",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "nodejs build static server",
   "main": "index.js",
   "scripts": {
@@ -9,15 +9,24 @@
   "bin": {
     "yg-server": "bin/static-server.js"
   },
+  "bugs": {
+    "url": "https://github.com/taoyage/static-server/issues"
+  },
+  "homepage": "https://github.com/taoyage/static-server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taoyage/static-server.git"
+  },
   "keywords": [
-    "nodejs"
+    "nodejs",
+    "static-server"
   ],
   "author": "taoyage",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.0.12",
-    "mime": "^2.4.0",
-    "open": "0.0.5",
-    "yargs": "^12.0.5"
+    "handlebars": "^4.7.7",
+    "mime": "^3.0.0",
+    "open": "8.4.0",
+    "yargs": "^17.4.1"
   }
 }
